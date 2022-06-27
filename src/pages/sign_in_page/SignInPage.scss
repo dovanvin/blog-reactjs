@@ -1,0 +1,32 @@
+.logo-signup {
+    min-height: 100vh;
+    padding: 40px;
+    .eaut {
+      margin: 0 auto 20px;
+    }
+    .heading {
+      text-align: center;
+      color: #00f;
+    }
+    .form {
+      max-width: 600px;
+      margin: 0 auto;
+      .btn-sign-up {
+        width: 250px;
+        height:70px;
+        font-size: 20px;
+        margin: auto;
+        background: linear-gradient(to right, #15155a, #297373);
+        &:hover {
+          background: linear-gradient(to left, #15155a, #297373);
+        }
+      }
+    }
+  }
+  .have-account{
+    text-align:right ;
+    color: #00f;
+    a{
+      color: #000;
+    }
+  }

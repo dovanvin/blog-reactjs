@@ -1,0 +1,16 @@
+h1{
+    margin-bottom:4rem;
+    color: #444;
+    font-size: 3rem;
+    position: relative;
+    &:before {
+        content: " ";
+        width: 4rem;
+        height: .3rem;
+        background-color: #29b2fb;
+        position:  absolute;
+        top:0;left: 0;
+        
+        
+    }
+}

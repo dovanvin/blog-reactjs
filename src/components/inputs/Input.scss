@@ -1,0 +1,35 @@
+.box-input{
+    width: 100%;
+    position: relative;
+    .input{
+        width: 100%;
+        padding: 20px 60px 20px 20px;
+        border-radius: 8px;
+        background-color: #eee;
+        font-weight: 500;
+        border: 1px solid transparent;
+        color: #30306d;
+    
+        &:focus{
+            background-color: white;
+            border-color: #00f;
+        }
+    
+        &::-webkit-input-placeholder{
+            color: #62629a;
+        }
+        &::-moz-input-placeholder{
+            color: #62629a;
+        }
+
+        
+    }
+    .icon-eye{
+        position: absolute;
+        right: 20px;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 20px;
+        cursor: pointer;
+    }
+}

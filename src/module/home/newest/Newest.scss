@@ -1,0 +1,12 @@
+.layout {
+  display: flex;
+  justify-content: space-between;
+  gap: 5rem;
+
+  .sidebar {
+    flex: 1;
+    border-radius: 2rem;
+    background-color: #eee;
+    padding: 2rem;
+  }
+}

@@ -1,0 +1,16 @@
+.loading-sign-up{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border: 1px solid white;
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+    border-radius: 100rem;
+    animation: spinner 1s infinite linear;
+
+    @keyframes spinner {
+        100%{
+            transform: rotate(360deg);
+        }
+    }
+}
